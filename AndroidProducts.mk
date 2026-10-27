@@ -4,5 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_veux.mk \
-    $(LOCAL_DIR)/custom_veux.mk
+    $(LOCAL_DIR)/voltage_veux.mk
