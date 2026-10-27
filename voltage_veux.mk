@@ -33,10 +33,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # ==== dukeoftoad: VoltageOS 5.12 continuation (A16 QPR2) ====
 
-# Canvas app (6.x feature backport; sdk_version patched to 36 in our fork)
-PRODUCT_PACKAGES += \
-    Canvas
-
 # Rebrand 5.11-EOL -> 5.12 (vendor version.mk froze the derived vars with := ;
 # recomputing here so zip name + About screen carry 5.12)
 VOLTAGEVERSION := 5.12
